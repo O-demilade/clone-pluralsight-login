@@ -1,0 +1,193 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+html{
+  background-color: rgba(13, 15, 18, 1);
+}
+.sideScreen{
+  display: none;
+}
+.majorScreen{
+  display: grid;
+  grid-template-columns: 100%;
+  font-family: PS TT Commons Roman,Gotham SSm A,Gotham SSm B,Arial,sans-serif;
+}
+
+header{
+  margin: 10% 0 8% 0;
+  justify-self: center;
+}
+header img{width: 250px;}
+
+article, footer{
+  display: grid;
+  padding: 0 10%;
+}
+
+#loginForm{
+  display: grid;
+  color: rgb(255, 255, 255);
+}
+
+#loginForm input, 
+#loginForm button /*takes only height from here*/{
+  background-color: transparent;
+  border: solid .1em rgba(255, 255, 255, 0.2);
+  border-radius: .2em;
+  height: 30px;
+  color: rgb(255, 255, 255);
+  padding: 0 3%;
+}
+
+input:focus-visible, 
+button:focus-visible, 
+a:focus-visible,
+div:focus-visible{
+  outline: solid 1px rgba(250, 0, 0, 1);
+  outline-offset: -1px;
+}
+
+#loginForm label,
+#loginForm button{
+  margin: 20px 0 0 0;
+}
+#loginForm label{
+  margin-bottom: 5px;
+}
+
+#loginForm button{
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 116, 171, 1);
+  border: solid .1em rgba(0, 116, 171, 1);
+  border-radius: .2em;
+  margin-bottom: 15px;
+}
+
+article a, article button{
+  margin-top: 15px;
+  text-align: center;
+}
+
+article a{
+  font-size: .8em;
+  color: rgba(46, 160, 214, 1);
+  text-decoration: none;
+}
+article>a:hover,
+article>a:focus,
+article>a:active{
+  text-decoration: underline;
+}
+
+article>button{
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(138,153,168,.25);
+  border: none;
+  height: 30px;
+  border-radius: .2em;
+}
+
+#line{
+  margin-top: 25px;
+  border-bottom: solid 1px rgba(255, 255, 255, .2);
+}
+
+footer *{
+  color: rgba(255, 255, 255, 1);
+}
+footer{
+  text-align: center;
+  font-size: 10px;
+  margin-top: 30px;
+  line-height: 2em;
+}
+footer ul{
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  gap: 5px;
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+#help{
+  position: absolute;
+  bottom: 5px;
+  width: 25px;
+  margin-left: -20px;
+}
+* button, #help{
+  cursor: pointer;
+}
+
+
+
+@media only screen  and (min-width: 619px) {
+  body{
+    display: grid;
+    grid-template-columns: 40% 60%
+  }
+
+  .sideScreen{
+    display: block;
+  }
+
+  .sideScreen{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    padding-left: 10%;
+  }
+  #backImg{
+    width: 50%;
+    max-width: 590px;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+  #buildBetter{
+    width: 100px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+  }
+  #catchPhrase{
+    color: rgba(255, 255, 255, 1);
+    font-family: PS TT Commons Roman,Gotham SSm A,Gotham SSm B,Arial,sans-serif;
+    font-size: 2.3em;
+    max-width: 37%;
+    line-height: 90%;
+    padding-left: 3%;
+    margin-top: 30%;
+  }
+  #capSeat{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+  }
+  #capSeat svg{
+    width: 12%;
+    display: grid;
+    grid-column: 1/2;
+    margin-top: -17%;
+  }
+  #freeTrial{
+    position: relative;
+    top: -30px;
+    border: none;
+    border-radius: 2px;
+    width: 150px;
+    height: 25px;
+    color: rgba(255, 255, 255, 1);
+    font-size: .7em;
+    background-image: linear-gradient(to right, rgba(242, 91, 42, 1),rgba(237, 0, 140, 1), rgba(242, 91, 42, 1));
+    /* margin-top: -70%; */
+  }
+  #freeTrial:focus-visible{
+    outline: solid 1px rgba(0, 255, 0, 1);
+    outline-offset: -1px;
+  }
+}
