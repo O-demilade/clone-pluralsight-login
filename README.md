@@ -1,5 +1,5 @@
 # Clone of Pluralsight's Login page 
-        [Pliralsight](https://app.pluralsight.com/id) - as of Sept 2021
+        [Pluralsight](https://app.pluralsight.com/id) - as of Sept 2021
 
 ## Deployment:
         [Pluralsight Login Clone](https://pluralsight-loginclone.netlify.app/)
@@ -21,13 +21,14 @@
         This task was created by Mary to help scholars of the Google Africa Developer Scholarship 2021 
         further hone their basic skill of web styling and accessibility of responsive webpages.
 
-        Upon completion of the task i can say i have gotten better at creating responsive websites while keeping accessibility in mind.
+        Upon completion of the task i can say i have gotten better at creating responsive websites while keeping 
+        accessibility in mind.
 
         "There is no perfect code", feel free to reachout with comments and contributions, i will really love that.
 
 
 ## Requirements:
-        - Use html and pure css (not bootstrap or any other library or framework)
+        Use html and pure css (not bootstrap or any other library or framework)
     
         Make sure the input fields, links and buttons are accessible via keyboard (i.e. focus
         should appear around input fields, links and buttons when you navigate the  page
