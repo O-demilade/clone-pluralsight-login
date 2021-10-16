@@ -1,8 +1,10 @@
 # Clone of Pluralsight's Login page 
-        (https://app.pluralsight.com/id) - as of Sept 2021
+        [Pliralsight](https://app.pluralsight.com/id) - as of Sept 2021
 
 ## Deployment:
-        https://pluralsight-loginclone.netlify.app/
+        [Pluralsight Login Clone](https://pluralsight-loginclone.netlify.app/)
+        
+        ![preview of pluralsight login clone](/img/preview.png)
 
 ## Tools: 
         HTML
